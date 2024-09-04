@@ -1,7 +1,6 @@
 /* Style for the body to add a background image and center the form */
 body {
     font-family: Arial, sans-serif;
-    background-image: linear-gradient(red yellow);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -56,3 +55,85 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
     background-color: #0056b3; /* Darker blue on hover */
 }
+h2{
+    
+    margin: 10px;
+}
+h3{
+    margin: 20px;
+}
+/* Style for the button */
+button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Adjust space from above element */
+}
+
+/* Change button color on hover */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Container for the result */
+.result-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: center;
+}
+
+/* Style for the answer */
+.answer {
+    font-size: 1.2em;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+/* Style for correct/incorrect feedback */
+h3 {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Style for the correct answer highlight */
+.correct-answer {
+    font-weight: bold;
+    color: #28a745; /* Green color for correct answer */
+}
+
+/* Style for incorrect feedback */
+h3 {
+    color: #dc3545; /* Red color for incorrect answer */
+}
+
+/* Style for the button */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+}
+
+/* Change button color on hover */
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+
